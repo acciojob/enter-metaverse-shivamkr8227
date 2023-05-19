@@ -6,5 +6,6 @@ enterbtn.addEventListener("click",()=>{
 	statusele.innerText="Entered Metaverse";
 	const h1ele=document.createElement("h1");
 	h1ele.innerText=statusele.innerText;
+	h1ele.id="status";
 	statusele.parentNode.replaceChild(h1ele, statusele);
 });
